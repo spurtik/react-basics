@@ -6,7 +6,7 @@ import SearchResults from '../search-results';
 import HouseFilter from './house-filter';
 import HouseFromQuery from '../house/HouseFromQuery';
 import useHouses from '../hooks/useHouses';
-import useFeaturedHouse from './useFeaturedHouse';
+import useFeaturedHouse from '../hooks/useFeaturedHouse';
 import HousesContext from '../context/housesContext';
 
 function App() {

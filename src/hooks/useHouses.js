@@ -4,8 +4,9 @@ const  useHouses = () => {
 
     useEffect(() => {
       const fetchHouses = async () => {
-        const rsp = await fetch("/houses.json");
+        const rsp = await fetch("./houses.json");
         const houses = await rsp.json();
+        console.log(houses);
         setAllHouses(houses);
       };
       fetchHouses();
